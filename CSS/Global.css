@@ -127,9 +127,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Pixelfont;
-    font-size: 1.2vw;
-    padding-top: 10px;
-    margin-bottom: 30px;
+    font-size: 1.2vmax;
+    padding-top: 1.2vh;
+    margin-bottom: 3vh;
     color: rgb(88, 83, 94);
     text-align: center;
 }
@@ -192,14 +192,16 @@ body {
     height: 72.5vh;
     width: 40vw;
     margin-top: 30px;
+    padding-left: 8%;
+    padding-top: 6.5%;
+    /* padding: 7.2% 12% 5.5% 8%; */
 }
 
 #CV {
     overflow: hidden;
     box-sizing: border-box;
-    padding: 7.2% 12% 5.5% 8%;
-    height: 100%;
-    width: 100%;
+    height: 93%;
+    width: 92%;
 }
 
 #CvScroll {
