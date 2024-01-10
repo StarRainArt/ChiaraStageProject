@@ -27,7 +27,7 @@ var game = {
 };
 
 var building = {
-    name: ["Inleiding",  "Bedrijfsbeschrijving", "SMART Doelen", "Werkzaamheden", "Conclusie"],
+    name: ["Inleiding",  "Bedrijfsbeschrijving", "SMART Doelen", "Werkzaamheden", "Reflectie"],
     income: [1,5,10,20,14],
     cost: [5, 75, 250, 750, 2000],
     purchased: [false,false,false,false,false],
