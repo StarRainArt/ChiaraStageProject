@@ -7,7 +7,7 @@ window.onload = () => {
 var game = {
     score: 0,
     clickValue: 1,
-    version: 0.000,
+    version: 1.000,
 
     addToScore: function(amount) {
         this.score += amount;
